@@ -32,4 +32,8 @@ The results demonstrate several important findings:
 - The importance of domain adaptation is clearly evident, as fine-tuning allowed the model to adapt from natural images (ImageNet) to microscopic cell images
 - All models achieved over 93% accuracy, demonstrating the viability of automated malaria detection using deep learning
 
-The fine-tuned ResNet50V2 model represents the best approach for this malaria classification task, achieving clinically relevant accuracy that could assist healthcare professionals in diagnosis.
+The fine-tuned ResNet50V2 model represents the best approach for this malaria classification task, achieving clinically relevant accuracy that could assist healthcare professionals in diagnosis. The final model size reached +200MB, making it suitable for deployment in most clinical environments.
+
+---
+
+**Note**: This project is for research and educational purposes. Medical diagnosis should always involve qualified healthcare professionals.
